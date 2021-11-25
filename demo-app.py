@@ -29,7 +29,7 @@ card_main = dbc.Card(
             ]
         ),
     ],
-    color="dark",   # https://bootswatch.com/default/ for more card colors
+    color="darkblue",   # https://bootswatch.com/default/ for more card colors
     inverse=True,   # change color of text (black or white)
     outline=False,  # True = remove the block colors from the background and header
 )
