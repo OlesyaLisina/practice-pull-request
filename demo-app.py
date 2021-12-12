@@ -8,7 +8,7 @@ from dash.dependencies import Input, Output
 df = px.data.gapminder()
 
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
 
 card_main = dbc.Card(
     [
