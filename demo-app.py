@@ -4,7 +4,7 @@ import dash_html_components as html
 import dash_core_components as dcc
 import plotly.express as px
 from dash.dependencies import Input, Output
-# This comment should be deleted
+
 df = px.data.gapminder()
 
 
@@ -86,3 +86,4 @@ def update_graph(value):
 
 if __name__ == "__main__":
     app.run_server(debug=True)
+# my first pull-request
